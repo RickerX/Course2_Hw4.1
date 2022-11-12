@@ -46,6 +46,11 @@ public class Trucks extends Car {
     }
 
     @Override
+    public void repair() {
+        System.out.println("Грузовик " + getBrand() + " " + getModel() + " отремонтирован!");
+    }
+
+    @Override
     public String pitStop() {
         return "Еду на пит-стоп";
     }

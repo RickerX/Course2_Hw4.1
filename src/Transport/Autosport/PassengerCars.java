@@ -44,6 +44,11 @@ public class PassengerCars extends Car {
     }
 
     @Override
+    public void repair() {
+        System.out.println("Машина " + getBrand() + " " + getModel() + " отремонтирована!");
+    }
+
+    @Override
     public String pitStop() {
         return "Еду на пит-стоп";
     }
